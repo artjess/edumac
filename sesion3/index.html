@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf-8">
+	<head><title>formularios</title></head>
+	<body>
+
+
+<!--Form es para inicial un dormulario-->
+		<form>
+			 <fieldset>
+			 	<!-- fieldset es para colocar el cuadro que encierra al formulario-->
+			 	<legend>Información personal</legend>
+			 	Nombre <input type="text" name="nombre" placeholder="Escribe tu nombre">
+			 	<br>
+			 	Apellidos <input type="text" name="apellidos" placeholder="Escribe tus apellidos">
+			 	<br>
+			 	Email<input type="email" name="correo" placeholder="Escribe tu email">
+
+			 </fieldset>
+			 <fieldset>
+			 	<legend>Información adicional</legend>
+			 	Fecha de cumpleaños : <input type="date" name="cumpleaños">
+			 	<br>
+			 	<br>
+			 	Escoge tu calor favorito: <input ="color" name="favcolor" value="#ff0000">
+			 	<br>
+			 	<br>
+	<!-- select es para crear un cuadro con diferentes opciones, y con option se crea cada opcion-->	 	
+			 	Nivel de estudios: 
+			 	<select name="estudios">
+			 		<option value="kinder">kinder</option>
+			 		<option value="primaria">primaria</option>
+			 		<option value="secundaria">secundaria</option>
+
+			 	</select>
+
+			 </fieldset>	
+			 	<fieldset>
+			 		<legend> Edad </legend>
+			 			<input type="checkbox" name="edad" 
+			 			value="10-15"> 10-15
+			 			<br>
+			 			<input type="checkbox" name="edad" 
+			 			value="16-20"> 16-20
+			 			<br>
+			 			<input type="radio" name="edad" 
+			 			value="21-30"> 21-30
+			 			<br>
+			 			Introduce tu edad exacta <input type="number" name="edad-exacta" min="10" max="30">
+
+			 	</fieldset>
+			 	<fieldset>
+			 		<legend>otra</legend>
+			 		<input type="time">
+			 		<br>
+			 		<textarea name="textarea" cols="30" rows="10" placeholder="escriba un comentario"></textarea>
+			 		<br>
+			 		
+
+			 		<!-- tienes que borrar ese comentario ya que no esta como un placehorder-->
+			 		<textarea name="textarea" cols="30" rows="40">escribe un comentario </textarea>
+
+
+
+			 	</fieldset>
+
+
+
+	
+
+
+			 
+			 	
+				
+
+
+			</form>
+		
+
+	</body>
+</html>

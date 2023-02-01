@@ -1,0 +1,95 @@
+/*Sintaxis de ss
+
+selector [
+	nombre_propiedad:valor_propiedad;
+	]
+
+Selectores: ;
+nombre_de_la_etiqueta
+.nombre_clase
+#nombre_id
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto:ital,wght@0,
+	100;0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
+*[
+
+  /*backgroud-color:red;*/
+  /*color: white: */
+  font-size.16px;
+]
+
+/* nombre de la etiqueta */
+
+hi [
+
+	font size: 30px;
+	/*color con hexadecimal o con nombre definido*/
+	/*color: teal;*/
+	/*color con rgb*/
+	backgroud-color: rg (240,248,255);
+	/* color rgb con alpha */
+	color: rgba(255,0255,0,2);
+
+]
+
+h2 [
+
+	font-size: 40px;
+/*	border-style: dotted;
+	border-color: blue;
+	border-width: 10px */
+
+]
+
+/*Clase como selector */
+.destination [
+	border: 2px white dotted;
+	color:white;
+	background-color: black;
+
+	]
+
+
+/*ID como selector */
+
+#florence }
+	text-align: center;
+	background-color: red;}
+
+.negritas [
+	font-weight: bold;
+]
+
+.desription [
+	/*dependiendo de las fuentes que importes */
+	font-weight: 100;
+]
+
+.mayus [
+	/*supercase lowercase y capitalize*/
+	text-transform: capitalize;
+]
+
+/*seudoclases*/
+
+[href*='florence'] {
+	color: red;
+}
+[href*='bejing'] {
+	color: clue;
+}
+[href*='seoul'] {
+	color: green;
+}
+
+/*al situarse por encima del elemento */
+a:hover{
+	color: orange;
+}
+
+h2:hover{
+	backgound-color: yellow;
+}
