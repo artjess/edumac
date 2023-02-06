@@ -1,0 +1,59 @@
+	}+/
+
+	h1{
+		font-size: 30px;
+	}
+	h2{
+		font-size: 50px;
+	}
+	h3{
+		font-size: 60px;
+	}
+
+	/*para darle estilo a 3 elementos diferentes */
+
+h1,h2,h3{
+	color: red;
+	font-weight: bold;
+	background-color: yellow;
+}
+
+/*selector descendente*/
+
+p span{
+	color: red;
+}
+
+h4 span{
+	color: blue;
+}
+
+h5 span em{
+	font-size: 20 px;
+}
+
+.destacado{
+	font-size: 40px;
+}
+
+p.destacado{
+	color: green;
+}
+
+/*todos los lementos con la clase aviso que 
+esten dentro de div */
+div .aviso{
+	background-color: yellow;
+}
+
+.aviso{
+	border: red 2px solid;
+}
+
+div > h1{
+	font-size: 40px;
+}
+.fondo-blanco{
+	background-color: white;
+	color: black;
+}

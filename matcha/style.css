@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700;1,900&display=swap');
+
+:root{
+	--fondo: rgb(254, 250, 245);
+	--verdeF: rgb(19,64,69);
+	--verdeC: rgb(87,170,59);
+	--gris: rgb(146,145,144);
+}
+
+
+body{
+	background-color: var(--fondo);
+}
+
+.logoimg{
+   width: 70px;
+}
+
+a{
+	text-decoration: none;
+}
+nav > a{
+	color: var(--verdeF);
+}
+
+nav > a:hover{
+	color: var(--gris);
+}
+
+.colorverde{
+	color: var(--verdeC);
+}
+
+.botonverdeC{
+	color; white;
+	background-color: var(--verdeC);
+	border-radius: 4px;
+	border-color: var(--verdeC);
+	height: 50px;
+	width:130px;
+}
+
+.titulo{
+	font-size: 50px;
+	color: var(--verdeF);
+	font-family: Lobster;
+}
+
+.centrar{
+	text-align: center;
+}
