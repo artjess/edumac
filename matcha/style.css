@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Slabo+27px&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700;1,900&display=swap');
 
 :root{
 	--fondo: rgb(254, 250, 245);
@@ -12,10 +11,12 @@
 
 body{
 	background-color: var(--fondo);
+	font-family: "Open Sans", sans-serif;
+	
 }
 
 .logoimg{
-   width: 70px;
+   width: 80px;
 }
 
 a{
@@ -31,10 +32,12 @@ nav > a:hover{
 
 .colorverde{
 	color: var(--verdeC);
-}
+	margin-right: 15px;
+  }
+
 
 .botonverdeC{
-	color; white;
+	color: white;
 	background-color: var(--verdeC);
 	border-radius: 4px;
 	border-color: var(--verdeC);
@@ -42,12 +45,119 @@ nav > a:hover{
 	width:130px;
 }
 
+.formemail >button {
+	color: white;
+	font-size: 18px;
+	border: solid 1px var(--gris);
+	background-color: var(--verdeF);
+	border-radius: 0 5px 5px 0;
+	text-align: center;
+	height: 55px;
+	width: 130px;
+	margin-left: -4px;
+}
+
+.formemail >input{
+	border-radius: 5px 0 0 5px;
+	margin-right: -2px;
+	border: solid 1px var(--gris);
+	height: 50px;
+	width:220px;
+	text-align: center;
+	font-size: 18px;
+}
+
 .titulo{
-	font-size: 50px;
+	font-size: 60px;
 	color: var(--verdeF);
 	font-family: Lobster;
 }
 
+.titulo2{
+	font-size: 40px;
+	color: var(--verdeF);
+	font-family: Lobster;
+	margin-left: 20px;
+}
+
+.textogris{
+	color:var(--gris);
+	font-size: 17px;
+}
+
+h6 {
+	color: var(--gris);
+	font-size: 15px;
+}
+
+.Slabo {
+ 	font-family: 'Slabo 27px';
+ 	font-size: 20px;
+ 	color
+ }
+
 .centrar{
 	text-align: center;
+
+}
+
+header {
+	/*aqui definimos que header va a ser un contenedor flexible (contenedor padre)*/
+	display: flex;
+	/*por default el flex direction es row*/
+	flex-direction: row;
+	/*es para acomodar de acuerdo al eje principal */
+	justify-content: center;
+	/*es para acomodar de acuerdo al eje cruzado*/
+	align-items: center;
+}
+
+nav{
+	width:40%;
+	display: flex;
+	justify-content: space-between;
+	font-size: 20px;
+}
+
+.logodiv{
+	width: 30%;
+	display: flex;
+
+
+}
+
+.botondiv{
+	width: 30%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.tercerseccion {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-left: 120px;
+	margin-right: 230px;
+}
+
+.margen {
+	margin-left: 20px;
+}
+
+.parrafos {
+	color: var(--gris); 
+}
+
+.parrafosverdes {
+	color: var(--verdeC);
+	font-size: 15px;
+}
+
+.cuadroblanco{
+	background: white;
+}
+
+.cuadroverde{
+	background: var(--verdeF);
 }
