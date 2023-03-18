@@ -11,8 +11,7 @@
 
 body{
 	background-color: var(--fondo);
-	font-family: "Open Sans", sans-serif;
-	
+	font-family: "Open Sans", sans-serif;	
 }
 
 .logoimg{
@@ -22,6 +21,7 @@ body{
 a{
 	text-decoration: none;
 }
+
 nav > a{
 	color: var(--verdeF);
 }
@@ -48,13 +48,13 @@ nav > a:hover{
 .formemail >button {
 	color: white;
 	font-size: 18px;
-	border: solid 1px var(--gris);
 	background-color: var(--verdeF);
 	border-radius: 0 5px 5px 0;
 	text-align: center;
-	height: 55px;
+	height: 54px;
 	width: 130px;
 	margin-left: -4px;
+
 }
 
 .formemail >input{
@@ -135,29 +135,68 @@ nav{
 
 .tercerseccion {
 	display: flex;
-	flex-direction: row;
 	justify-content: center;
-	margin-left: 120px;
+	margin-left: 170px;
 	margin-right: 230px;
+	margin-bottom: 100px;
 }
 
 .margen {
 	margin-left: 20px;
 }
 
+/*cuarta sección*/
+
+h2 {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 65px;
+	margin-right: 140px;;
+}
+
 .parrafos {
 	color: var(--gris); 
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 65px;
+	margin-right: 140px;
 }
 
 .parrafosverdes {
 	color: var(--verdeC);
 	font-size: 15px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 65px;
+	margin-right: 140px;
+
+}
+
+.cuadroverde {
+	display: flex;
+	justify-content: center;
+	background: var(--verdeF)
+}
+
+.cuadroverde1 {
+	display: flex;
+	justify-content: center;
+	background: var(--verdeF)
 }
 
 .cuadroblanco{
 	background: white;
+	margin: 50px;
+	border-radius: 4px;
+	
 }
 
-.cuadroverde{
-	background: var(--verdeF);
-}
+
+	
+
+
+
+
+
+
+

@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+
+:root{
+	--verde: #00B172;
+}
+
+*{
+	font-family: Montserrat;
+}
+
+header{
+	margin: 2%;
+}
+
+header img{
+	width: 20%;
+}
+
+nav {
+	width: 30%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: 20px;
+	}
+
+nav a{
+	color: black;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: var(--verde);
+}
+
+header{
+	display: flex;
+	/*row -reverse lo puse porque en el codigo html puse el orden al revés*/
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	align-items: center;
+	margin: 
+}
+
+.imgfondo{
+	color: white;
+	background-image: url('https://raw.githubusercontent.com/valjime95/Ejercicios_Web/master/spotify/code/img/landing.jpeg');
+	background-size: cover;
+	height: 800px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.imgfondo h1{
+	font-size: 90px;
+	font-weight: 500;
+}
+
+.imgfondo p{
+	font-size: 30px;
+	text-align: center;
+}
+
+h2{
+	font-size: 30px;
+	font-weight: 500;
+	text-decoration: underline var(--verde);
+	text-underline-offset: 15px;
+	text-align: center;
+	margin: 50px; 
+}
+
+.division img{
+	width: 120px;
+}
+
+.section3{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin: 90px 0;
+}
+
+.section3 h1{
+	color: var(--verde);
+	font-weight: 700;
+	font-size: 30px;
+}
+
+
+
+.division{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.section4{
+	background-color: var(--verde);
+	color: white;
+	margin: 30px;
+	display: flex;
+	justify-content: space-between;
+	height: 800px;
+	margin: 30px;
+	align-items: center;
+}
+
+.section4 img{
+	height: 80%;
+	margin:30px;
+	margin-right: 90px;
+}
+
+.section4 article{
+	margin-left: 90px;
+}
