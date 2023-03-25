@@ -1,0 +1,22 @@
+.card {
+	margin: 10px;
+}
+
+legend.scheduler-border {
+    width:inherit; /* Or auto */
+    padding:0 10px; /* To give a bit of padding on the left and right */
+    border-bottom:none;
+
+  }
+
+  fieldset{
+  	border: 20px;
+  	border-color: blue;
+  	padding: 30px;
+  	border-width: 10px;
+  	border-style: groove;
+  	border-image: initial;
+  	margin: 50px;
+  }
+
+  
