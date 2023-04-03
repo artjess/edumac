@@ -1,0 +1,35 @@
+.padreGrid{
+	background-color: lightblue;
+	/*lo volvemos una rejilla*/
+	display: grid;
+	/*cuantas columnas y de que ancho*/
+	/*grid-template-columns: repeat(3,100px);
+	grid-template-columns: repeat(3, 1fr);*/
+	grid-template-columns: auto auto auto auto;
+	/*separaciones entre divs*/
+	/*column-gap: 20px;*/
+	/*row-gap: 10px;*/
+	/*gap: 30px 20px;*/
+	gap:10px;
+
+}
+
+section > div{
+	background-color: yellow;
+	border: 1px gray solid;
+	font-size: 30px;
+	text-align: center; 
+}
+
+.item1{
+	grid-column-start: 1;
+	grid-column-end: span3;
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+
+.item6{
+	grid-column-start: 3;
+	grid-column-end: -1;
+	grid-row: 3 / 5;
+}
